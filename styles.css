@@ -1,4 +1,5 @@
 /*  your css code here. If applicable */
+/* Ensure page uses full height and has no margin */
 body {
   margin: 0;
   height: 100vh;
@@ -7,6 +8,7 @@ body {
   position: relative;
 }
 
+/* Styling the rotating line */
 #line {
   position: absolute;
   width: 200px;

@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+#line {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background-color: #000000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
